@@ -1,0 +1,7 @@
+C:\Users\rross\AppData\Local\Temp\azd869732561\BlazorApp.exe
+C:\Users\rross\AppData\Local\Temp\azd869732561\appsettings.Development.json
+C:\Users\rross\AppData\Local\Temp\azd869732561\appsettings.json
+C:\Users\rross\AppData\Local\Temp\azd869732561\BlazorApp.dll
+C:\Users\rross\AppData\Local\Temp\azd869732561\BlazorApp.deps.json
+C:\Users\rross\AppData\Local\Temp\azd869732561\BlazorApp.runtimeconfig.json
+C:\Users\rross\AppData\Local\Temp\azd869732561\BlazorApp.pdb

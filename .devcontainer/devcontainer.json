@@ -1,0 +1,34 @@
+{
+    "name": "Azure Developer CLI",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            // List of images: https://github.com/devcontainers/images/tree/main/src
+            "IMAGE": "dotnet:7.0-jammy"
+        }
+    },
+    "features": {
+        // See https://containers.dev/features for list of features
+        "ghcr.io/devcontainers/features/azure-cli:1": "latest",
+        "ghcr.io/jsburckhardt/devcontainer-features/azd:1": "latest"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"GitHub.vscode-github-actions",
+				"ms-azuretools.azure-dev",
+				"ms-azuretools.vscode-azurefunctions",
+				"ms-azuretools.vscode-bicep",
+				"ms-azuretools.vscode-docker"
+			]
+        }
+    },
+    "forwardPorts": [
+        // Forward ports if needed for local development
+    ],
+    "postCreateCommand": "",
+    "remoteUser": "vscode",
+    "hostRequirements": {
+        "memory": "8gb"
+    }
+}
